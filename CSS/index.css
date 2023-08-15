@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    margin: 0;
+    background-color: rgb(153, 248, 248);
+    display: flex;
+    justify-content: center;
+  }
+
+  nav a {
+    color: #000000;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+
+  nav a:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+.maincontainer{
+    width: 1200px;
+    margin: auto;
+    /* border: 10px solid red; */
+}
+
+p {
+    line-height: 18px;
+    text-align: justify;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.conpadding{
+    padding: 20px 20px;
+}
+button{
+    border-radius: 5px;
+    padding: 8px 40px;
+    height: 31px;
+    border: none;
+    background-color: brown;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    border:  2px solid black;
+}
+.header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 9px;
+}
+h2{
+    text-decoration: underline;
+}
+.header p{
+    text-align: center;
+}
+i.fas.fa-shipping-fast {
+    padding-left: 9px;
+}
+img {
+    max-width: 100%;
+}
+.products{
+    position: relative;
+}
+.products:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.products i{
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    color: black;
+    padding: 43%;
+    padding-left: 38%;
+    left: 0px;
+    padding-bottom: 78%;
+    padding-top: 69%;
+    text-align: center;
+}
+.products:hover i{
+    visibility:visible;
+    opacity: 1;
+}
+
+/* Firstsection */
+.firstsection{
+     background-color: #efefef;
+}
+.logo {
+    display: block;
+    margin: 20px;
+}
+.logo img {
+    width: 18%;
+}
+.left {
+    float: left;
+    padding-top: 40px;
+    width: 36%;
+    padding-left: 59px
+}
+.left h1{
+    line-height: 42px;
+    font-size: 34px;
+}
+.right{
+    float: right;
+    width: 35%;
+}
+/* firstsection ends */
+
+/* secondsection starts */
+.secondsection{
+    background-color: white;
+}
+.who_we_are {
+    text-align: center;
+    font-size: 21px;
+}
+.para3 {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.secondsection .left {
+    float: left;
+    padding-top: 40px;
+    width: 36%;
+    padding-left: 59px;
+    margin-left: 11%;
+}
+.secondsection .right{
+    float: right;
+    width: 35%;
+    padding-top: 5%;
+    margin: auto;
+}
+/* secondsection ends */
+
+/* third section starts */
+section.conpadding.firstsection.thridsection {
+    padding-left: 104px;
+}
+.who_we_are{
+    padding-bottom: 25px;
+}
+
+.products {
+    float: left;
+    border: 2px solid black;
+    width: 26%;
+    overflow: hidden;
+    text-align: left;
+    margin: 22px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.products h3{
+    padding-left: 10px;
+}
+.products p {
+    padding-left: 10px;
+}
+.products h2 {
+    padding-left: 10px;
+}
+.products img {
+    width: 100%;
+    height: 26rem;
+}
+/* third section ends */
+
+/* fouth section starts */
+.container4{
+    padding:35px;
+    height: 450px;
+
+}
+.contpara4 {
+    width: 50%;
+    text-align: justify;
+    float: left;
+     
+}
+.imgcont4 {
+    width: 44%;
+    float: right;
+}
+/* fouth section ends */
+
+/* Nav bar Starts */
+section.navbarr {
+    height: 60px;
+    background-color: white;
+}
+a {
+    text-decoration: none;
+}
+.navbar{
+    background-color: #efefef;
+    padding-left: 30px;
+    position: relative;
+}
+li {
+    /* padding-left: 30px; */
+    /* float: left; */
+    list-style: none;
+    padding-top: 18px;
+    padding-right: 35px;
+}
+.footer{
+    margin: 0px;
+    background-color: black;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 0px;
+}
+
+.title{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.footer-section{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+ul {
+    float: right;
+    /* height: 55px; */
+}
+/* Nav bar End */
+@media (max-width: 768px) {
+    .aboutus{   
+        text-align: justify;
+        margin: 0px 30px;
+    }
+    nav{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section{
+        margin-top: 20px;
+    }
+    
+    .title{
+        margin-bottom:10px;
+    }
+    }

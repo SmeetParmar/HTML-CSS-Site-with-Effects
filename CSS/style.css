@@ -1,0 +1,218 @@
+/* CSS Starts */
+
+/* CSS For Body */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS for Navbar */
+nav {
+    margin: 0;
+    background-color: rgb(153, 248, 248);
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #000000;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* CSS for main */
+main{
+    margin: 10px;
+}
+
+/* CSS for Menu Page*/
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    row-gap: 30px;
+}
+
+.card{
+    background-color:rgb(237, 237, 237);
+    transition: box-shadow 0.7s ease-in-out;
+    padding: 10px;
+    width: 300px;
+    height :auto    ;
+    border:2px solid black;
+    border-radius: 5px;
+    display:inline;
+    align-items: center;
+}
+
+.card:hover{
+    box-shadow: 3px 3px 20px black ;
+}
+
+/* CSS for headings */
+h1,h2,h3,p{
+    margin: 20px 0px;
+    text-align: center;
+}
+
+/* CSS for button */
+button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    height:30px;
+    display: flex;
+    width:inherit;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+    border-radius: 5px;
+}
+
+
+img{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* CSS for About Us Page */
+.aboutus{
+    line-height: 28px;
+    font-size: larger;
+    text-align: center;
+}
+
+.aboutusp{
+    padding : 0px 20px;
+    font-size: medium;
+    text-align: justify;
+    line-height: 23px;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+/* CSS for Contact Us Page */
+.content {
+    box-shadow: 3px 3px 20px black ;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(182, 249, 249);
+}
+
+form label {
+    display: block;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,textarea {
+    box-shadow: 1px 1px 5px black ;
+    width: 98%;
+    border: 1px solid black;
+    padding: 8px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+/* CSS for Orders Page */
+table{
+    margin: 30px 0px;
+    box-shadow: 1px 1px 5px black ;
+    background-color: white;
+    font-size: large;
+    width: 800px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px ;
+}
+
+th{
+    float: left;
+}
+
+.button{
+    margin-top: 20px;
+    background-color: blue;
+}
+
+/* CSS for Footer */
+.footer{
+    margin: 0px;
+    background-color: black;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 0px;
+}
+
+.title{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.footer-section{
+    font-size: large;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+ul{
+    line-height: 28px;
+    list-style-type: none;
+}
+
+/* CSS for mobile view that has Maximum 768px width */
+@media (max-width: 768px) {
+
+/* CSS for Navbar */
+nav{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+/* CSS for About Us Page */
+.aboutus{   
+    text-align: justify;
+    margin: 0px 30px;
+}
+
+/* CSS for Contact Us Page */
+table{
+    display: flex;
+    width: auto;
+}
+
+/* CSS for Footer */
+.footer-section{
+    margin-top: 20px;
+}
+.title{
+    margin-bottom:10px;
+}
+
+}
+
+/* CSS Ends */
